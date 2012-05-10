@@ -4,7 +4,7 @@ LOCAWEB_GATEWAY_VERSION = 'v0.1.1'
 
 setup(name='locaweb_gateway',
     version=LOCAWEB_GATEWAY_VERSION,
-    description='',
+    description='Locaweb gateway bindings',
     author='locaweb',
     packages=['locaweb_gateway'],
     install_requires=['requests >= 0.8.8', 'simplejson'],
